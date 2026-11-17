@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Ferrari — tezlik, dizayn va mukammallik olami.">
+  <title>Ferrari | Tezlik — bu san'at</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <a href="#home" class="logo">FERRARI<span>.</span></a>
+
+    <nav class="nav" id="nav">
+      <a href="#home">Bosh sahifa</a>
+      <a href="#models">Modellar</a>
+      <a href="#experience">Tajriba</a>
+      <a href="#racing">Poyga</a>
+      <a href="#gallery">Galereya</a>
+      <a href="#contact">Aloqa</a>
+    </nav>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Menyuni ochish">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content reveal">
+        <span class="eyebrow">ITALIYA MUHANDISLIGI</span>
+        <h1>TEZLIK — BU <span>SAN'AT.</span></h1>
+        <p>
+          Mukammallik, innovatsiya va cheksiz ehtiros
+          uyg'unligidagi Ferrari olamiga xush kelibsiz.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#models" class="btn btn-red">Modellarni ko'rish</a>
+          <a href="#experience" class="btn btn-outline">Ko'proq bilish</a>
+        </div>
+      </div>
+
+      <a href="#models" class="scroll-down">
+        <span>PASTGA O'TING</span>
+        <i class="fa-solid fa-arrow-down"></i>
+      </a>
+    </section>
+
+    <!-- MODELS -->
+    <section class="models section" id="models">
+      <div class="section-heading reveal">
+        <span class="eyebrow">BIZNING DUNYOMIZ</span>
+        <h2>FERRARI <span>MODELLARI</span></h2>
+        <p>Har bir model — o'ziga xos muhandislik asari.</p>
+      </div>
+
+      <div class="carousel">
+        <button class="carousel-arrow prev" id="prevBtn" aria-label="Oldingi model">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <div class="carousel-window">
+          <div class="carousel-track" id="carouselTrack">
+
+            <article class="car-card">
+              <img src="https://images.carexpert.com.au/cms/v1/media/2022-04-01296gtb34ant-1.jpg" alt="Ferrari 296 GTB" loading="lazy">
+              <div class="car-info">
+                <span>SPORT SERIYASI</span>
+                <h3>296 GTB</h3>
+                <p>Yangi avlod sport avtomobili.</p>
+                <button class="details-btn" data-model="296 GTB">Batafsil <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </article>
+
+            <article class="car-card">
+              <img src="https://www.gtrent.com/upload/images/themes/home_banner/Unknown.jpeg" alt="Ferrari sport avtomobili" loading="lazy">
+              <div class="car-info">
+                <span>SPORT SERIYASI</span>
+                <h3>SF90</h3>
+                <p>Texnologiya va kuch uyg'unligi.</p>
+                <button class="details-btn" data-model="SF90">Batafsil <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </article>
+
+            <article class="car-card">
+              <img src="https://www.ferrariofseattle.com/static/brand-ferrari/custom_pages/ferrari-296-gtb/gallery/gallery-11.jpg" alt="Ferrari 296 GTB yon ko'rinishi" loading="lazy">
+              <div class="car-info">
+                <span>GRAN TURISMO</span>
+                <h3>ROMA</h3>
+                <p>Italiya nafisligining ifodasi.</p>
+                <button class="details-btn" data-model="Roma">Batafsil <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </article>
+
+            <article class="car-card">
+              <img src="https://cloudfront-eu-central-1.images.arcpublishing.com/arenaholdings/N6POOXN5GJOFJAWOCWG4D75RSE.jpg" alt="Ferrari 296 GTB yo'lda" loading="lazy">
+              <div class="car-info">
+                <span>GRAN TURISMO</span>
+                <h3>PUROSANGUE</h3>
+                <p>Erkinlik va qudratning yangi talqini.</p>
+                <button class="details-btn" data-model="Purosangue">Batafsil <i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+        <button class="carousel-arrow next" id="nextBtn" aria-label="Keyingi model">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <div class="carousel-dots" id="carouselDots"></div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="experience section" id="experience">
+      <div class="experience-image reveal"></div>
+
+      <div class="experience-content reveal">
+        <span class="eyebrow">FERRARI RUHI</span>
+        <h2>CHEGARALAR <span>YO'Q.</span></h2>
+        <p>
+          Ferrari — bu shunchaki avtomobil emas.
+          Bu jasorat, izlanish va doimiy mukammallikka
+          intilish timsolidir.
+        </p>
+        <a href="#racing" class="btn btn-red">Bizning tariximiz</a>
+      </div>
+    </section>
+
+    <!-- RACING -->
+    <section class="racing section" id="racing">
+      <div class="racing-content reveal">
+        <span class="eyebrow">MOTORSPORT MEROSI</span>
+        <h2>RACE TO <span>WIN.</span></h2>
+        <p>
+          Tezlik, strategiya va jamoaviy ruh.
+          Ferrari poyga merosi bilan tanishing.
+        </p>
+        <a href="#gallery" class="btn btn-outline">Poyga olamini ko'rish</a>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery section" id="gallery">
+      <div class="section-heading reveal">
+        <span class="eyebrow">VIZUAL OLAM</span>
+        <h2>FERRARI <span>GALEREYASI</span></h2>
+        <p>Har bir burchakda mukammallik.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <img src="https://images.carexpert.com.au/cms/v1/media/2022-04-01296gtb34ant-1.jpg" alt="Ferrari 1" loading="lazy">
+        <img src="https://www.gtrent.com/upload/images/themes/home_banner/Unknown.jpeg" alt="Ferrari 2" loading="lazy">
+        <img src="https://www.ferrariofseattle.com/static/brand-ferrari/custom_pages/ferrari-296-gtb/gallery/gallery-11.jpg" alt="Ferrari 3" loading="lazy">
+        <img src="https://s1.cdn.autoevolution.com/images/news/gallery/new-ferrari-296-gtb-takes-acceleration-test-to-prove-it-s-a-proper-supercar_13.jpg" alt="Ferrari 4" loading="lazy">
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+      <div class="section-heading reveal">
+        <span class="eyebrow">BIZ BILAN BOG'LANING</span>
+        <h2>ALOQA <span>MARKAZI</span></h2>
+        <p>Bizga xabaringizni yuboring.</p>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <input type="text" id="name" placeholder="Ismingiz" required>
+        <input type="email" id="email" placeholder="Elektron pochtangiz" required>
+        <textarea id="message" placeholder="Xabaringiz..." rows="5" required></textarea>
+        <button class="btn btn-red" type="submit">Xabarni yuborish</button>
+        <p id="formMessage" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <a href="#home" class="logo">FERRARI<span>.</span></a>
+    <p>Tezlik — bu san'at. Mukammallik — bizning maqsadimiz.</p>
+    <div class="socials">
+      <a href="https://www.instagram.com/ferrari/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.facebook.com/Ferrari/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.youtube.com/@Ferrari" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+    <p class="copyright">© 2026 Ferrari uslubidagi demo loyiha. Barcha huquqlar himoyalangan.</p>
+  </footer>
+
+  <!-- MODAL -->
+  <div class="modal" id="modelModal" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Yopish">&times;</button>
+      <span class="eyebrow">FERRARI MODELLARI</span>
+      <h2 id="modalTitle">Model</h2>
+      <p id="modalDescription"></p>
+      <button class="btn btn-red" id="modalOk">Yopish</button>
+    </div>
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button id="lightboxClose" aria-label="Rasmni yopish">&times;</button>
+    <button id="lightboxPrev" aria-label="Oldingi rasm">&#10094;</button>
+    <img id="lightboxImage" src="" alt="Ferrari katta rasm">
+    <button id="lightboxNext" aria-label="Keyingi rasm">&#10095;</button>
+  </div>
+
+  <button id="topBtn" aria-label="Yuqoriga qaytish">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
